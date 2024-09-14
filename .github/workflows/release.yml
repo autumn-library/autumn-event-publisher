@@ -11,6 +11,5 @@ jobs:
     uses: autumn-library/workflows/.github/workflows/release.yml@main
     with:
       package_mask: "autumn-event-publisher-*.ospx"
-      oscript_version: dev
     secrets:
-      PUSH_TOKEN: ${{ secrets.PUSH_TOKEN }}
+      PUSH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
