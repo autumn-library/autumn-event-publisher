@@ -14,5 +14,5 @@ jobs:
   release:
     uses: autumn-library/workflows/.github/workflows/release.yml@v1
     with:
-      package_mask: "autumn-event-publisher-*.ospx" # change me!
+      package_mask: "autumn-event-publisher-*.ospx"
       trusted_publishing: true
